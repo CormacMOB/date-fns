@@ -7,7 +7,7 @@ import buildFormatLocale from './buildFormatLocale/index.js'
  * @summary Danish locale.
  * @author Anders B. Hansen [@Andersbiha]{@link https://github.com/Andersbiha}
  */
-const daLocale = {
+var daLocale = {
   distanceInWords: buildDistanceInWordsLocale(),
   format: buildFormatLocale()
 }
